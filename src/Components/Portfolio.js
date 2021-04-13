@@ -22,7 +22,7 @@ class Portfolio extends Component {
     return (
       <section id="portfolio">
         <div className="row">
-          <div className="twelve columns collapsed">
+          <div className="container fluid">
             <h1>My Projects</h1>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
