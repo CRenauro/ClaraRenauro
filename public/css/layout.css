@@ -268,8 +268,8 @@ ul#nav li.current a { color: #fe6928; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 50px;
+   padding-bottom: 40px;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -277,7 +277,6 @@ ul#nav li.current a { color: #fe6928; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color:black;
 }
 
 /* Portfolio Content */
@@ -286,6 +285,7 @@ ul#nav li.current a { color: #fe6928; }
    background: #fff;
    overflow: hidden;
    position: relative;
+   border:grey 1px solid;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -320,8 +320,8 @@ ul#nav li.current a { color: #fe6928; }
 .portfolio-item .item-wrap .link-icon {
    display: block;
    color: #fff;
-   height: 30px;
-   width: 30px;
+   height: 55px;
+   width: 55px;
    font-size: 18px;
    line-height: 30px;
    text-align: center;
@@ -338,12 +338,10 @@ ul#nav li.current a { color: #fe6928; }
    position: absolute;
    top: 50%;
    left: 50%;
-   margin-left: -15px;
-   margin-top: -15px;
+   /* margin-left: -15px;
+   margin-top: -15px; */
 }
-.portfolio-item .item-wrap img {
-   vertical-align: bottom;
-}
+
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
@@ -368,7 +366,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 /* popup modal */
-.popup-modal {
+/* .popup-modal {
 	max-width: 550px;
 	background: #fff;
 	position: relative;
@@ -407,16 +405,16 @@ ul#nav li.current a { color: #fe6928; }
 	text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
-}
-.popup-modal a:hover {	color: #0762f9; }
-.popup-modal a.popup-modal-dismiss { margin-left: 24px; }
+} */
+/* .popup-modal a:hover {	color: #0762f9; }
+.popup-modal a.popup-modal-dismiss { margin-left: 24px; } */
 
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
 
 /* content at start */
-.mfp-fade.mfp-wrap .mfp-content .popup-modal {
+/* .mfp-fade.mfp-wrap .mfp-content .popup-modal {
    opacity: 0;
    -webkit-transition: all 200ms ease-in-out;
 	-moz-transition: all 200ms ease-in-out;
@@ -424,20 +422,20 @@ ul#nav li.current a { color: #fe6928; }
 	-ms-transition: all 200ms ease-in-out;
    transition: all 200ms ease-in-out;
 }
-/* content fadein */
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
+content fadein */
+/* .mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
    opacity: 1;
-}
+} */
 /* content fadeout */
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
+/* .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
-}
+} */
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
 /* Reset */
-.flexslider a:active,
+/* .flexslider a:active,
 .flexslider a:focus  { outline: none; }
 .slides,
 .flex-control-nav,
@@ -445,7 +443,7 @@ ul#nav li.current a { color: #fe6928; }
 .slides li { margin: 0; padding: 0;}
 
 /* Necessary Styles */
-.flexslider {
+/* .flexslider {
    position: relative;
    zoom: 1;
    margin: 0;
@@ -455,33 +453,33 @@ ul#nav li.current a { color: #fe6928; }
 .flexslider .slides > li { position: relative; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+/* .flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
 /* Suggested container for slide animation setups. Can replace this with your own */
-.flex-container { zoom: 1; position: relative; }
+/* .flex-container { zoom: 1; position: relative; } */ */ */ */
 
 /* Clearfix for .slides */
-.slides:before,
+/* .slides:before,
 .slides:after {
    content: " ";
    display: table;
 }
 .slides:after {
    clear: both;
-}
+} */
 
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-.no-js .slides > li:first-child { display: block; }
+/* .no-js .slides > li:first-child { display: block; } */
 
 /* Slider Styles */
-.slides { zoom: 1; }
+/* .slides { zoom: 1; }
 .slides > li {
    /*margin-right: 5px; */
-   overflow: hidden;
-}
+   /* overflow: hidden;
+/* } */ */ */
 
-/* Control Nav */
+Control Nav
 .flex-control-nav {
     width: 100%;
     position: absolute;
