@@ -11,12 +11,12 @@
       "state":"NJ",
       "zip": "08854"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://crenauro.herokuapp.com/",
+    "resumedownload":"https://drive.google.com/file/d/1--UcxwmrpHNMcMr5yfRX7LHrPEs4D2Rq/view?usp=sharing",
     "social":[
       {
         "name":"email",
-        "url":"mailto:clara.renauro@optimum.com",
+        "url":"mailto:clara.renauro@optimum.net",
         "className":"fa fa-envelope"
       },
       {
