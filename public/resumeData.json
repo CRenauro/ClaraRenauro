@@ -65,10 +65,10 @@
         "url":"https://github.com/CRenauro/Workday-Scheduler"
       },
       {
-        "title":"Note Taker",
-        "category":"Express.js, Heroku",
+        "title":"Fitness Tracker",
+        "category":"Mongoose Database handled by Express",
         "image":"06.jpg",
-        "url":"https://github.com/CRenauro/Express-Note-Taker"
+        "url":"https://github.com/CRenauro/Workout-Tracker"
       }
     ]
   }

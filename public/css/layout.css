@@ -129,7 +129,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: #010207;
    padding-top: 60px;
    padding-bottom: 40px;
    overflow: hidden;
@@ -283,9 +283,10 @@ ul#nav li.current a { color: #fe6928; }
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
-   overflow: hidden;
+   /* overflow: hidden; */
    position: relative;
    border:grey 1px solid;
+
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -320,8 +321,8 @@ ul#nav li.current a { color: #fe6928; }
 .portfolio-item .item-wrap .link-icon {
    display: block;
    color: #fff;
-   height: 55px;
-   width: 55px;
+   height: 60px;
+   width: 60px;
    font-size: 18px;
    line-height: 30px;
    text-align: center;
