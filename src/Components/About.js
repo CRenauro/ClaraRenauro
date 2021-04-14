@@ -4,15 +4,10 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
+    // const name = this.props.data.name;
     const profilepic = "images/" + this.props.data.image;
     const bio = this.props.data.bio;
 
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
 
     const networks = this.props.data.social.map(function (network) {
@@ -37,19 +32,9 @@ class About extends Component {
             <p>{bio}</p>
             <div className="row">
               <div className="columns contact-details">
-                <h2>Contact Details</h2>
-                <p className="address">
-                  <span>{name}</span>
-                  <br />
-                  <span>
-                    {city} {state}, {zip}
-                  </span>
-                  <br />
-                  <span>{phone}</span>
-                  <br />
-                  <span>{email}</span>
-                </p>
+                <ul className="social-links">{networks}</ul>  
               </div>
+
               <div className="columns download">
                 <p>
                   <a href={resumeDownload} className="button">
@@ -57,12 +42,9 @@ class About extends Component {
                   </a>
                 </p>
               </div>
-              <div className="twelve columns">
-                <ul className="social-links">{networks}</ul>
-              </div>
+
             </div>
           </div>
-          <div></div>
         </div>
       </section>
     );

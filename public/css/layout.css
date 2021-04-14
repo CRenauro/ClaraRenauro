@@ -12,7 +12,7 @@ body { background: #010207; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 600px;
    min-height: 500px;
    width: 100%;
    background:  url(../images/header.jpg) no-repeat top center;
@@ -60,29 +60,6 @@ header .banner-text hr {
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
-
-
-/* scrolldown link */
-header .scrolldown a {
-   position: absolute;
-   bottom: 30px;
-   left: 50%;
-   margin-left: -29px;
-   color: #fff;
-   display: block;
-   height: 42px;
-   width: 42px;
-   font-size: 42px;
-   line-height: 42px;
-   color: #fff;
-   border-radius: 100%;
-
-   -webkit-transition: all .3s ease-in-out;
-   -moz-transition: all .3s ease-in-out;
-   -o-transition: all .3s ease-in-out;
-   transition: all .3s ease-in-out;
-}
-header .scrolldown a:hover { color: #0762f9; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -153,8 +130,8 @@ ul#nav li.current a { color: #fe6928; }
 
 #about {
    background: #000524;
-   padding-top: 96px;
-   padding-bottom: 66px;
+   padding-top: 60px;
+   padding-bottom: 40px;
    overflow: hidden;
 }
 
@@ -187,7 +164,7 @@ ul#nav li.current a { color: #fe6928; }
    background: #444;
 }
 #about .download .button:hover {
-   background: #fff;
+   background: #0762f9;
    color: #2B2B2B;
 }
 #about .download .button i {
@@ -558,12 +535,7 @@ ul#nav li.current a { color: #fe6928; }
    padding: 0;
    font-size: 40px;
 }
-#contact {
-   background: #191919;
-   padding-top: 50px;
-   padding-bottom: 102px;
-   color: #636363;
-}
+
 
 #contact a, #contact a:visited  { color: #0762f9; }
 #contact a:hover, #contact a:focus { color: #fff; }
@@ -576,7 +548,7 @@ ul#nav li.current a { color: #fe6928; }
 
 footer {
    padding-top: 48px;
-   margin-bottom: 48px;
+   margin-bottom: 24px;
    color: #010207;
    font-size: 14px;
    text-align: center;
