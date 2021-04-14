@@ -1,22 +1,4 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
-
-===================================================================== */
 
 /* ------------------------------------------------------------------ */
 /* a. General Styles
@@ -79,19 +61,6 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
-/* header social links */
-header .social {
-   margin: 24px 0;
-   padding: 0;
-   font-size: 30px;
-}
-header .social li {
-   display: inline-block;
-   margin: 0 15px;
-   padding: 0;
-}
-header .social li a { color: #fff; }
-header .social li a:hover { color: #0762f9; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -331,7 +300,7 @@ ul#nav li.current a { color: #fe6928; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color:black;
 }
 
 /* Portfolio Content */
@@ -487,127 +456,6 @@ ul#nav li.current a { color: #fe6928; }
    opacity: 0;
 }
 
-/* ------------------------------------------------------------------ */
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
-
-#call-to-action {
-   background: #212121;
-   padding-top: 66px;
-   padding-bottom: 48px;
-}
-#call-to-action h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-}
-#call-to-action h1 span { display: none; }
-#call-to-action .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0ac";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
-}
-#call-to-action .action {
-   margin-top: 12px;
-}
-#call-to-action h2 {
-   font: 28px/36px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#call-to-action h2 a {
-   color: inherit;
-}
-#call-to-action p {
-   color: #636363;
-   font-size: 17px;
-}
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
-#call-to-action .button:hover,
-#call-to-action .button:active {
-   background: #FFFFFF;
-   color: #0D0D0D;
-}
-#call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif;
-	color: #D8D8D8;
-}
-
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
-
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   background-attachment: fixed;
-
-   position: relative;
-   min-height: 200px;
-   width: 100%;
-   overflow: hidden;
-}
-#testimonials .text-container {
-   padding-top: 96px;
-   padding-bottom: 66px;
-}
-#testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-}
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f10d";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
-}
-
-/*	Blockquotes */
-#testimonials blockquote {
-   margin: 0 0px 30px 0px;
-   padding-left: 0;
-   position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-}
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
-   font-family: 'librebaskerville-italic', serif;
-   padding: 0;
-   font-size: 24px;
-   line-height: 48px;
-   color: #fff
-}
-#testimonials blockquote cite {
-   display: block;
-   font-size: 12px;
-   font-style: normal;
-   line-height: 18px;
-   color: #fff;
-}
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
-
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
@@ -696,7 +544,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
-#contact .social-links li {
+#about .social-links li {
    display: inline-block;
    margin: 0;
    padding: 0;
@@ -705,109 +553,21 @@ call-to-action .button {
 }
 
 /* social links */
-#contact .social-links {
+#about .social-links {
    margin: 18px 0 30px 0;
    padding: 0;
    font-size: 40px;
 }
 #contact {
    background: #191919;
-   padding-top: 96px;
+   padding-top: 50px;
    padding-bottom: 102px;
    color: #636363;
 }
-#contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #0762f9; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
-#contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#contact h1 span { display: none; }
-#contact h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #ebeeee;
-}
-
-#contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
-   padding-right: 3%;
-}
-#contact .header-col { padding-top: 6px; }
-
-
-/* contact form */
-#contact form { margin-bottom: 30px; }
-#contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
-   margin: 12px 0;
-   color: #EBEEEE;
-	display: inline-block;
-	float: left;
-   width: 26%;
-}
-#contact input,
-#contact textarea,
-#contact select {
-   padding: 10px 20px;
-	color: #eee;
-	background: #373233;
-	margin-bottom: 42px;
-	border: 0;
-	outline: none;
-   font-size: 15px;
-   line-height: 24px;
-   width: 65%;
-}
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-	color: #fff;
-	background-color: #0762f9;
-}
-#contact button.submit {
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
-	border: none;
-   cursor: pointer;
-   height: auto;
-   display: inline-block;
-	border-radius: 0px;
-   margin-left: 26%;
-}
-#contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
-}
-#contact span.required {
-	color: #0762f9;
-	font-size: 13px;
-}
-
-#image-loader {
-   display: none;
-   position: relative;
-   left: 18px;
-   top: 17px;
-}
 
 
 /* ------------------------------------------------------------------ */
