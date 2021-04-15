@@ -175,16 +175,16 @@ abbr:hover { cursor: help; }
 /*  3. Links  ------------------------------------------------------- */
 
 a, a:visited {
-   text-decoration: none;
-   outline: 0;
-   color: #11ABB0;
+   /* text-decoration: none; */
+   /* outline: 0;
+   color: #11ABB0; */
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
    -o-transition: color .3s ease-in-out;
    transition: color .3s ease-in-out;
 }
-a:hover, a:focus { color: #313131; }
+/* a:hover, a:focus { color: #313131; } */
 p a, p a:visited { line-height: inherit; }
 
 
@@ -196,8 +196,8 @@ img {
    max-width: 100%;
    height: auto;
 }
-img.pull-right { margin: 12px 0px 0px 18px; }
-img.pull-left { margin: 12px 18px 0px 0px; }
+/* img.pull-right { margin: 12px 0px 0px 18px; }
+img.pull-left { margin: 12px 18px 0px 0px; } */
 
 /*  6. Buttons  --------------------------------------------------------- */
 
