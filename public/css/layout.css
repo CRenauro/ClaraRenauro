@@ -143,6 +143,10 @@ ul#nav li.current a { color: #fe6928; }
    color: #fff;
    margin-bottom: 12px;
 }
+#about h4 {
+   color: #fff;
+   padding-left: 95px;
+}
 #about p {
    line-height: 30px;
    color: #ccc;
@@ -153,7 +157,7 @@ ul#nav li.current a { color: #fe6928; }
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
+
 #about .download {
    width: 58.33333%;
    padding-top: 6px;

@@ -9,6 +9,7 @@ class About extends Component {
     const bio = this.props.data.bio;
 
     const resumeDownload = this.props.data.resumedownload;
+    const phone = this.props.data.phone;
 
     const networks = this.props.data.social.map(function (network) {
       return (
@@ -30,6 +31,8 @@ class About extends Component {
             <h2>About Me</h2>
 
             <p>{bio}</p>
+
+            {/* <h6>732.648.6107</h6> */}
             <div className="row">
               <div className="columns contact-details">
                 <ul className="social-links">{networks}</ul>  
@@ -42,7 +45,7 @@ class About extends Component {
                   </a>
                 </p>
               </div>
-
+              <h4>{phone}</h4>
             </div>
           </div>
         </div>
