@@ -46,31 +46,36 @@
         "title":"Random Password Generator",
         "category":"HTML and CSS",
         "image":"02.jpg",
-        "url":"https://github.com/CRenauro/Random-Password-Generator"
+        "url":"https://github.com/CRenauro/Random-Password-Generator",
+        "website":"https://crenauro.github.io/Random-Password-Generator/"
       },
       {
         "title":"Tech Blog",
         "category":"MVC, Heroku and, Sequelize",
         "image":"03.jpg",
-        "url":"https://github.com/CRenauro/My-Tech-Blog"
+        "url":"https://github.com/CRenauro/My-Tech-Blog",
+        "website":"https://my-tech-blog-cr.herokuapp.com/"
       },
       {
         "title":"Google Books Search",
         "category":"React, Node, Express and MongoDB",
         "image":"04.jpg",
-        "url":"https://github.com/CRenauro/Google-Books-Search"
+        "url":"https://github.com/CRenauro/Google-Books-Search",
+        "website":"https://googlebookscr.herokuapp.com/"
       },
       {
         "title":"Workday Scheduler",
         "category":"Dynamically updated HTML and CSS, jQuery, and Moment.js",
         "image":"05.jpg",
-        "url":"https://github.com/CRenauro/Workday-Scheduler"
+        "url":"https://github.com/CRenauro/Workday-Scheduler",
+        "website":"https://crenauro.github.io/Workday-Scheduler/"
       },
       {
         "title":"Fitness Tracker",
         "category":"Mongoose Database handled by Express",
         "image":"06.jpg",
-        "url":"https://github.com/CRenauro/Workout-Tracker"
+        "url":"https://github.com/CRenauro/Workout-Tracker",
+        "website":"https://workout-tracker-cr.herokuapp.com/"
       }
     ]
   }
