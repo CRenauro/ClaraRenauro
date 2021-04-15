@@ -10,13 +10,17 @@ class Portfolio extends Component {
            <div className="item-wrap">
             <a href={projects.url} title={projects.title}>
                <img alt={projects.title} src={projectImage} />
-               <div className="overlay">
+                <div className="link-icon"><i className="fa fa-link"></i></div>               
+
+                 <div className="info">
                   <div className="portfolio-item-meta">
                  <h5>{projects.title}</h5>
                      <p>{projects.category}</p>
+                     <a href={projects.website} title={projects.title}></a>
+                      <div className="github-icon"><i className="fa fa-github"></i></div>
                   </div>
                 </div>
-              <div className="link-icon"><i className="fa fa-link"></i></div>
+
             </a>
           </div>
         </div>
