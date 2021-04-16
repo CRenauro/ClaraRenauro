@@ -37,7 +37,7 @@
     "projects": [
       {
         "title":"Weather Dashboard",
-        "category":"Dynamically updated HTML and CSS, Third Parry API's, and Local Storage",
+        "category":"Dynamically updated HTML and CSS, Third Party API's, and Local Storage",
         "image":"01.jpg",
         "url":"https://github.com/CRenauro/Weather-Dashboard",
         "website":"https://crenauro.github.io/Weather-Dashboard"
@@ -51,14 +51,14 @@
       },
       {
         "title":"Tech Blog",
-        "category":"MVC, Heroku and, Sequelize",
+        "category":"MVC, Heroku, Sequelize and, Express",
         "image":"03.jpg",
         "url":"https://github.com/CRenauro/My-Tech-Blog",
         "website":"https://my-tech-blog-cr.herokuapp.com/"
       },
       {
         "title":"Google Books Search",
-        "category":"React, Node, Express and MongoDB",
+        "category":"MERN - Mongo, Express, Node, React",
         "image":"04.jpg",
         "url":"https://github.com/CRenauro/Google-Books-Search",
         "website":"https://googlebookscr.herokuapp.com/"
@@ -72,7 +72,7 @@
       },
       {
         "title":"Fitness Tracker",
-        "category":"Mongoose Database handled by Express",
+        "category":"Mongo Database handled by Express",
         "image":"06.jpg",
         "url":"https://github.com/CRenauro/Workout-Tracker",
         "website":"https://workout-tracker-cr.herokuapp.com/"
