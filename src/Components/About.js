@@ -32,10 +32,10 @@ class About extends Component {
 
             <p>{bio}</p>
 
-            {/* <h6>732.648.6107</h6> */}
+            <h5>{phone}</h5>
             <div className="row">
               <div className="columns contact-details">
-                <ul className="social-links">{networks}</ul>  
+                <ul className="social-links">{networks}</ul>
               </div>
 
               <div className="columns download">
@@ -45,7 +45,7 @@ class About extends Component {
                   </a>
                 </p>
               </div>
-              <h4>{phone}</h4>
+
             </div>
           </div>
         </div>

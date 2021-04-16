@@ -3,7 +3,7 @@
     "name":"Clara Renauro",
     "description":"Dependable. Process-Oriented. Calm Under Pressure",
     "image":"profilepic.jpg",
-    "bio":"I started my previous career in commercial printing in my home state of New Jersey. Then I crossed the Hudson River to work in Manhattan at America's largest publisher, Time Inc. After a company buyout, I went to work for Fortune magazine. Due to Covid and budget cuts, that didn't last very long. With a strong desire for a short commute, a career for the future and, the option to use an Apple laptop, I decided to change careers and pursue Coding.",
+    "bio":"I started my previous career in commercial printing in my home state of New Jersey. Then I crossed the Hudson River to work in Manhattan at America's largest publisher, Time Inc. After a company buyout, I went to work for Fortune magazine. Due to Covid and budget cuts, that didn't last very long. With a strong desire for a short commute, a career for the future and, the option to use an Apple laptop, I decided to change careers and pursue Coding. I would love to work remotely or close to home in a role that utilizes my transferrable skills and newly acquired ones.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "phone": "732.648.6107",
   
@@ -17,7 +17,7 @@
     "social":[
       {
         "name":"email",
-        "url":"mailto:clara.renauro@optimum.net",
+        "url":"mailto:crenauro@optimum.net",
         "className":"fa fa-envelope"
       },
       {

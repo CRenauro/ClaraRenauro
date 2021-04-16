@@ -35,62 +35,9 @@ time, mark, audio, video {
    outline: 0;
    font-size: 100%;
    vertical-align: baseline;
-   background: transparent;
+
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-   display: block;
-}
-
-audio,
-canvas,
-video {
-   display: inline-block;
-}
-
-audio:not([controls]) {
-   display: none;
-   height: 0;
-}
-
-[hidden] { display: none; }
-
-code, kbd, pre, samp {
-   font-family: monospace, serif;
-   font-size: 1em;
-}
-
-pre {
-   white-space: pre;
-   white-space: pre-wrap;
-   word-wrap: break-word;
-}
-
-
-
-ins {
-   background-color: #ff9;
-   color: #000;
-   text-decoration: none;
-}
-
-mark {
-   background-color: #A7F4F6;
-   color: #555;
-}
-
-del { text-decoration: line-through; }
-
-abbr[title], dfn[title] {
-   border-bottom: 1px dotted;
-   cursor: help;
-}
-
-table {
-   border-collapse: collapse;
-   border-spacing: 0;
-}
 
 
 /* ------------------------------------------------------------------ */
@@ -152,45 +99,6 @@ p.lead {
    margin-bottom: 18px;
 }
 
-/* for 'em' and 'strong' tags, font-size and line-height should be same with
-the body tag due to rendering problems in some browsers */
-em { font: 15px/30px 'opensans-italic', sans-serif; }
-strong, b { font: 15px/30px 'opensans-bold', sans-serif; }
-small { font-size: 11px; line-height: inherit; }
-
-
-
-/* Abbreviations */
-abbr {
-   font-family: 'opensans-bold', sans-serif;
-	font-variant: small-caps;
-	text-transform: lowercase;
-   letter-spacing: .5px;
-	color: gray;
-}
-abbr:hover { cursor: help; }
-
-
-
-/*  3. Links  ------------------------------------------------------- */
-
-a, a:visited {
-   /* text-decoration: none; */
-   /* outline: 0;
-   color: #11ABB0; */
-
-   -webkit-transition: color .3s ease-in-out;
-   -moz-transition: color .3s ease-in-out;
-   -o-transition: color .3s ease-in-out;
-   transition: color .3s ease-in-out;
-}
-/* a:hover, a:focus { color: #313131; } */
-p a, p a:visited { line-height: inherit; }
-
-
-
-
-/*  5. Images  --------------------------------------------------------- */
 
 img {
    max-width: 100%;

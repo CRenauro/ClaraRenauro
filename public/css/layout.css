@@ -143,9 +143,9 @@ ul#nav li.current a { color: #fe6928; }
    color: #fff;
    margin-bottom: 12px;
 }
-#about h4 {
+#about h5 {
    color: #fff;
-   padding-left: 95px;
+   padding-left: 85px;
 }
 #about p {
    line-height: 30px;
@@ -153,8 +153,8 @@ ul#nav li.current a { color: #fe6928; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 
@@ -286,10 +286,11 @@ ul#nav li.current a { color: #fe6928; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: rgb(193, 192, 192);
+   background: rgb(220, 218, 218);
    /* overflow: hidden; */
    position: relative;
    border:grey 1px solid;
+   box-shadow: 5px 5px grey;
 
 }
 
@@ -304,6 +305,7 @@ ul#nav li.current a { color: #fe6928; }
    top: 50%;
    left: 50%;
 
+
 }
 .portfolio-item h5 {
    color: #003b73;
@@ -313,14 +315,23 @@ ul#nav li.current a { color: #fe6928; }
    color: #0261bb;
    padding-left: 10px;
 }
-.github-icon {
-   color: white;
-   font-size: 30px;
-}
+
 a {
    text-decoration: none;
+
 }
 
+.portfolio-links a {
+   color: #003b73;
+   padding-left: 70px;
+}
+
+#portfolio .portfolio-links{
+
+   padding: 5%;
+   font-size: 30px;
+
+}
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
