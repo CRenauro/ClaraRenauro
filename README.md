@@ -1,3 +1,4 @@
+![screencapture](https://user-images.githubusercontent.com/71401585/115097061-018b9380-9ef6-11eb-9cb4-dc44be524480.jpg)
 # Portfolio  
 My personal portfolio created with React.  
 
