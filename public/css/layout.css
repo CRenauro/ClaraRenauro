@@ -290,7 +290,9 @@ ul#nav li.current a { color: #fe6928; }
    /* overflow: hidden; */
    position: relative;
    border:grey 1px solid;
-   box-shadow: 5px 5px grey;
+   box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5)  ; 
 
 }
 
