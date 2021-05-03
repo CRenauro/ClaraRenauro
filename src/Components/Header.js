@@ -4,8 +4,6 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    // const project = this.props.data.project;
-    // const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
 
@@ -31,6 +29,12 @@ class Header extends Component {
             <li>
               <a className="smoothscroll" href="#about">
                 About / Contact
+              </a>
+            </li>
+
+            <li>
+              <a className="smoothscroll" href="#resume">
+                Skills
               </a>
             </li>
 

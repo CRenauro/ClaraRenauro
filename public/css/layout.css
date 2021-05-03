@@ -61,6 +61,28 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
+/* scrolldown link */
+header .scrolldown a {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   color: #fff;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   color: #525252;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+header .scrolldown a:hover { color: #0762f9; }
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -176,6 +198,35 @@ ul#nav li.current a { color: #fe6928; }
    font-size: 20px;
 }
 
+/* #skills */
+
+#resume {
+   background: #010207;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   text-align: center;
+   font-size: 16px;
+
+}
+#resume h2 {
+   display: inline-block;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   margin-left: 42px;
+   color:white;
+}
+/* #resume h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+} */
+#resume h1 span {
+   padding-top: 25px;
+   padding-bottom: 6px;
+   color:#0762f9;
+   text-align: center;
+}
 
 
 /*
@@ -276,11 +327,10 @@ ul#nav li.current a { color: #fe6928; }
    padding-bottom: 40px;
 }
 #portfolio h1 {
-   font: 18px/24px 'opensans-semibold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 1px;
+   font: 40px 'opensans-bold', sans-serif;
    text-align: center;
    margin-bottom: 48px;
+   color: #0762f9;
 }
 
 /* Portfolio Content */

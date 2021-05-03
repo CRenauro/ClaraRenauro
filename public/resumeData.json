@@ -32,7 +32,39 @@
       }
     ]
   },
-
+  "resume":{
+    
+    "skills":[
+      {
+        "name":"HTML"
+        
+      },
+      {
+        "name":"CSS"
+        
+      },
+      {
+        "name":"JavaScript"
+        
+      },
+      {
+        "name":"React"
+      
+      },
+      {
+        "name":"Git"
+       
+      },
+      {
+        "name":"JSON"
+        
+      },
+      {
+        "name":"MVC"
+        
+      }
+    ]
+  },
   "portfolio":{
     "projects": [
       {
