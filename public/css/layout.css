@@ -167,8 +167,12 @@ ul#nav li.current a { color: #fe6928; }
 }
 #about h5 {
    color: #fff;
-   padding-left: 85px;
+   text-align: center;
+   display: inline-block;
+   padding-left: 11%;
+
 }
+
 #about p {
    line-height: 30px;
    color: #ccc;
