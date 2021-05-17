@@ -13,6 +13,7 @@ class Portfolio extends Component {
                   <div className="portfolio-item-meta">
                     <h5>{ projects.title }</h5>
                      <p>{ projects.category }</p>
+                     <p>{ projects.description }</p>
                      <div className="portfolio-links">
                      <a href={ projects.url } ><i className="fa fa-github"></i></a>
                      <a href={ projects.website } ><i className="fa fa-link"></i></a>
@@ -28,7 +29,7 @@ class Portfolio extends Component {
 
       <div className="row">
 
-         <div className="twelve columns collapsed">
+         <div className="row">
 
             <h1>My Projects</h1>
 

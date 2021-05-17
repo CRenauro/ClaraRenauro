@@ -3,7 +3,7 @@
     "name":"Clara Renauro",
     "description":"Dependable. Process-Oriented. Calm Under Pressure",
     "image":"profilepic.jpg",
-    "bio":"I am a Junior React Front End Developer with a Full Stack Certificate from Rutgers University. My background is in Commercial Printing and Publishing, which has many commonalities to web development. Such as deadlines and combining all the moving parts to create something that people use. With an interest in technology and being a natural problem solver, Coding aligns with my personality. I am flexible and adapt quickly with strong collaborative and communication skills working with all types of people at all levels in an organization.",
+    "bio":"I am a Junior React Front End Developer with a Full Stack Certificate from Rutgers University. My background is in Commercial Printing and Publishing, which has many commonalities to web development. Such as deadlines and combining all the moving parts to create something that people want. With an interest in technology and being a natural problem solver, Coding aligns with my personality. I am flexible and adapt quickly with strong collaborative and communication skills working with all types of people at all levels in an organization.",
     "email":"crenauro@optimum.net",
     "phone": "732.648.6107",
   
@@ -69,42 +69,48 @@
     "projects": [
       {
         "title":"Weather Dashboard",
-        "category":"Dynamically updated HTML and CSS, Third Party API's, and Local Storage",
+        "category":"Current and future weather information.",
+        "description": "Dynamically updated HTML and CSS, Third Party API's, and Local Storage.",
         "image":"01.jpg",
         "url":"https://github.com/CRenauro/Weather-Dashboard",
         "website":"https://crenauro.github.io/Weather-Dashboard"
       },
       {
         "title":"Timed Sports Quiz",
-        "category":"HTML, CSS, and Javascript",
+        "category":"Multiple choice timed sports quiz.",
+        "description": "Created with HTML, CSS and, Javascript",
         "image":"02.jpg",
         "url":"https://github.com/CRenauro/Sports-Quiz-Challenge",
         "website":"https://crenauro.github.io/Sports-Quiz-Challenge/"
       },
       {
         "title":"Tech Blog",
-        "category":"MVC, Heroku, Sequelize and, Express",
+        "category":"Blog site similar to Wordpress.",
+        "description":"MVC, Heroku, Sequelize and, Express",
         "image":"03.jpg",
         "url":"https://github.com/CRenauro/My-Tech-Blog",
         "website":"https://my-tech-blog-cr.herokuapp.com/"
       },
       {
         "title":"Google Books Search",
-        "category":"MERN - Mongo, Express, Node, React",
+        "category":"Search for and save books of interest.",
+        "description":"MVC, Heroku, Sequelize and, Express",
         "image":"04.jpg",
         "url":"https://github.com/CRenauro/Google-Books-Search",
         "website":"https://googlebookscr.herokuapp.com/"
       },
       {
         "title":"Workday Scheduler",
-        "category":"Dynamically updated HTML and CSS, jQuery, and Moment.js",
+        "category":"Save events for each hour of the day.",
+        "description":"Dynamically updated HTML and CSS, jQuery and, Moment.js",
         "image":"05.jpg",
         "url":"https://github.com/CRenauro/Workday-Scheduler",
         "website":"https://crenauro.github.io/Workday-Scheduler/"
       },
       {
         "title":"Fitness Tracker",
-        "category":"Mongo Database handled by Express",
+        "category":"Create and track daily workouts.",
+        "description":"Mongo Database handled by Express",
         "image":"06.jpg",
         "url":"https://github.com/CRenauro/Workout-Tracker",
         "website":"https://workout-tracker-cr.herokuapp.com/"
