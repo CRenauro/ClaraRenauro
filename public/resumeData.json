@@ -60,7 +60,7 @@
         
       },
       {
-        "name":"MVC"
+        "name":"MySQL"
         
       }
     ]
@@ -92,12 +92,12 @@
         "website":"https://my-tech-blog-cr.herokuapp.com/"
       },
       {
-        "title":"Google Books Search",
-        "category":"Search for and save books of interest.",
-        "description":"MVC, Heroku, Sequelize and, Express",
+        "title":"Employee Tracker",
+        "category":"MySQL Content Management System.",
+        "description":"Backend CMS run in the Command Line using Node, Inquirer, and MySQL.",
         "image":"04.jpg",
-        "url":"https://github.com/CRenauro/Google-Books-Search",
-        "website":"https://googlebookscr.herokuapp.com/"
+        "url":"https://github.com/CRenauro/Employee-Tracker",
+        "website":"https://github.com/CRenauro/Employee-Tracker"
       },
       {
         "title":"Workday Scheduler",
