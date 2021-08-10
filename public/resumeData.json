@@ -13,7 +13,7 @@
       "zip": "08854"
     },
     "website": "https://crenauro.herokuapp.com/",
-    "resumedownload":"https://drive.google.com/file/d/1--UcxwmrpHNMcMr5yfRX7LHrPEs4D2Rq/view?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/1Wuw5j-vfqyxNZcY69q7qwiU2so-xHV0Y/view?usp=sharing",
     "social":[
       {
         "name":"email",
@@ -94,7 +94,7 @@
       {
         "title":"Employee Tracker",
         "category":"MySQL Content Management System.",
-        "description":"Backend CMS run in the Command Line using Node, Inquirer, and MySQL.",
+        "description":"Backend CMS runs in the Command Line using Node, Inquirer, and MySQL.",
         "image":"04.jpg",
         "url":"https://github.com/CRenauro/Employee-Tracker",
         "website":"https://github.com/CRenauro/Employee-Tracker"
