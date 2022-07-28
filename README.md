@@ -4,7 +4,7 @@
 
 My personal portfolio created with React.
 
-www.clararenauro.com
+https://crenauro.herokuapp.com/
 
 # About
 
